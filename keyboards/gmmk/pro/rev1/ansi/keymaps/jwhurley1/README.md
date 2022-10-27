@@ -43,9 +43,6 @@ Follow the steps on the "newbs" tutorial here: https://docs.qmk.fm/#/newbs.
 
  Get all the way through the tutorial. You will need to get to the point where you have your own custom keymap folder and have flashed QMK to the keyboard, even if its just a clone of the default keymap. This is just so you are familiar with the process.
 
-Go to the Github linked above and replace the keymap.c in your folder that you created in the tutorial.The rules.mk and config.h are not necessary. They just allow you to use the Via app, unlock more RGB modes (woohoo lights!), and force N-key rollover. The keymap.c is the most important.(You may wish to edit the key layout that I configured for my keyboard. You can easily do this later with apps like Via, Vial, or just editing the keymap.c manually.)
+Replace the keymap.c and rules.mk in your folder that you created in the tutorial. The config.h is not necessary, but it does unlock more cool RGB modes and N-Key Rollover so definitely recommended!. The keymap.c is the most important. (You may wish to edit the key layout that I configured for my keyboard. You can easily do this later with apps like Via, Vial, or just editing the keymap.c manually.)
 
-Run qmk compile again with the new keymap.c to create a new .bin file and flash that to the board.
-
-That's it! Check out the README on the Github to see how to control the side LEDs.
-
+Run `qmk compile` again with the new keymap.c to create a new .bin file and flash that to the board.
