@@ -1,4 +1,4 @@
-# QMMK Pro: Enable Encoder wheel to change the RGB of the side LEDs by holding modifier keys
+# GMMK Pro: Enable Encoder wheel to change the RGB of the side LEDs by holding modifier keys
 
 ## ​DEMO
 https://imgur.com/a/J3MLHbr
@@ -13,6 +13,9 @@ https://imgur.com/a/J3MLHbr
 | Ctrl+Encoder Press | Toggle Side LED on/off (default: off) |
 
 ## Other features
+
+- The keyboard lights will turn white when CAPS LOCK is enabled.
+- When modifying RGB_MATRIX colors while holding the FN key, the spacebar LED will show what the color will look like.
 
 | Holding FN + ...   | Action                                |
 |--------------------|---------------------------------------|
